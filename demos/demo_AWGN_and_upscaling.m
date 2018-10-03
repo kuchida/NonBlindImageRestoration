@@ -1,7 +1,7 @@
 addpath('utilities');
 
 %% testing dataset
-imageSet = 'Set5'; %% 'Set5', 'Set14', 'BSD100'
+imageSet = 'Set5'; %% ['Set5', 'Set14', 'BSD100']
 %%% gaussian noise Level
 sigma = 50;
 %%% upscaling factor
@@ -67,7 +67,7 @@ for i = 1 : length(filepaths)
       if useDnCNN
         input = degraded;
       else
-        input = cat(3, degraded, kGD * ones(size(label)), kSR * ones(size(label)), kDB * ones(size(label)), zeros(size(label)));
+        input = cat(3, degraded, kGD * ones(size(label)), kSR * ones(size(label)), kDB * ones(size(label)));
       end
       res = vl_simplenn(net, input,[],[],'conserveMemory',true,'mode','test');
       im = res(end).x(:,:,1);
