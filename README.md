@@ -20,15 +20,14 @@
 ### DnCNN
 
 To compare with [DnCNN-3](https://github.com/cszn/DnCNN) model,
-copy their `model/DnCNN3.mat` to our `model/` directory and change to `useDnCNN = 1;` in the scripts.
+copy their `model/DnCNN3.mat` to our `model/` directory and change to `useDnCNN = 1;` in the demo scripts.
 
-<small>
-Please note that DnCNN-3 model itself is expected to achieve higher performance if trained directly with perturbed degradations. This comparison is intended to demonstrate that CNN-based model performs poorly on images with untrained degradation model.
-</small>
+> Please note that DnCNN-3 model itself is expected to achieve higher performance if trained directly with perturbed degradations. This comparison is intended to demonstrate that CNN-based model performs poorly on images with untrained degradation model.
+
 
 ### BM3D
 
-To compare with [BM3D](http://www.cs.tut.fi/~foi/GCF-BM3D/), download their MATLAB software in `bm3d/` directory and change to `useBM3D = 1;` in the scripts.
+To compare with [BM3D](http://www.cs.tut.fi/~foi/GCF-BM3D/), download their MATLAB software in `bm3d/` directory and change to `useBM3D = 1;` in the demo scripts.
 
 ## Citation
 
