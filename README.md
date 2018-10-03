@@ -13,7 +13,7 @@
 
 1. Install [MatConvNet](http://www.vlfeat.org/matconvnet/).
 1. In MATLAB, `>> run matconvnet/matlab/vl_setupnn.m`.
-1. Then, Run demo as `>> run demos/demo_{*}.m`.
+1. Then, run a demo script by `>> run demos/demo_{*}.m`.
 
 ## Comparison
 
