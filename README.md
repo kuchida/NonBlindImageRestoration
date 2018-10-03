@@ -29,6 +29,18 @@ copy their `model/DnCNN3.mat` to our `model/` directory and change to `useDnCNN 
 
 To compare with [BM3D](http://www.cs.tut.fi/~foi/GCF-BM3D/), download their MATLAB software in `bm3d/` directory and change to `useBM3D = 1;` in the demo scripts.
 
+## Proposed Method
+
+- Network structure
+   <img src="figs/network.png" width="800px"/>
+- Restoration for degradation with perturbation
+   <img src="figs/result1.png" width="800px"/>
+- Restoration for untrained degradation
+   <img src="figs/result2.png" width="800px"/>
+- Restoration level control
+   <img src="figs/result3.png" width="800px"/>
+
+
 ## Citation
 
 ```
