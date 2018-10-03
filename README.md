@@ -40,6 +40,9 @@ To compare with [BM3D](http://www.cs.tut.fi/~foi/GCF-BM3D/), download their MATL
 - Restoration level control
    <img src="figs/result3.png" width="800px"/>
 
+## Abstract
+
+Blind image restoration processors based on convolutional neural network (CNN) are intensively researched because of their high performance. However, they are too sensitive to the perturbation of the degradation model. They easily fail to restore the image whose degradation model is slightly different from the trained degradation model. In this paper, we propose a non-blind CNN-based image restoration processor, aiming to be robust against a perturbation of the degradation model compared to the blind restoration processor. Experimental comparisons demonstrate that the proposed non-blind CNN-based image restoration processor can robustly restore images compared to existing blind CNN-based image restoration processors.
 
 ## Citation
 
